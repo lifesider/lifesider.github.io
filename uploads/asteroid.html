@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>小行星</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				background-color: #000000;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			#info {
+				position: absolute;
+				top: 0px; width: 100%;
+				color: #ffffff;
+				padding: 5px;
+				font-family:Monospace;
+				font-size:13px;
+				font-weight: bold;
+				text-align:center;
+			}
+
+			a {
+				color: #ffffff;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="container"></div>
+
+		<script src="//cdn.bootcss.com/three.js/r76/three.min.js"></script>
+
+		<script>
+
+			var camera, scene, renderer;
+
+			var isUserInteracting = false,
+			onMouseDownMouseX = 0, onMouseDownMouseY = 0,
+			lon = 0, onMouseDownLon = 0,
+			lat = -89, onMouseDownLat = 0,
+			phi = 0, theta = 0;
+
+			init();
+			animate();
+
+			function init() {
+
+				var container, mesh;
+
+				container = document.getElementById( 'container' );
+
+				camera = new THREE.PerspectiveCamera( 120, window.innerWidth / window.innerHeight, 1, 2000 );
+				camera.target = new THREE.Vector3( 0, 0, 0 );
+
+				scene = new THREE.Scene();
+
+				var geometry = new THREE.SphereGeometry( 500, 60, 40 );
+				geometry.scale( -1, 1, 1 );
+
+				var material = new THREE.MeshBasicMaterial( {
+					map: new THREE.TextureLoader().load( "http://lifesider.me/images/asteroid.jpg" )
+				} );
+
+				mesh = new THREE.Mesh( geometry, material );
+
+				scene.add( mesh );
+
+				renderer = new THREE.WebGLRenderer({antialias:true});
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				container.appendChild( renderer.domElement );
+
+				document.addEventListener( 'mousedown', onDocumentMouseDown, false );
+				document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+				document.addEventListener( 'mouseup', onDocumentMouseUp, false );
+				document.addEventListener( 'mousewheel', onDocumentMouseWheel, false );
+				document.addEventListener( 'MozMousePixelScroll', onDocumentMouseWheel, false);
+
+				//
+
+				document.addEventListener( 'dragover', function ( event ) {
+
+					event.preventDefault();
+					event.dataTransfer.dropEffect = 'copy';
+
+				}, false );
+
+				document.addEventListener( 'dragenter', function ( event ) {
+
+					document.body.style.opacity = 0.5;
+
+				}, false );
+
+				document.addEventListener( 'dragleave', function ( event ) {
+
+					document.body.style.opacity = 1;
+
+				}, false );
+
+				document.addEventListener( 'drop', function ( event ) {
+
+					event.preventDefault();
+
+					var reader = new FileReader();
+					reader.addEventListener( 'load', function ( event ) {
+
+						material.map.image.src = event.target.result;
+						material.map.needsUpdate = true;
+
+					}, false );
+					reader.readAsDataURL( event.dataTransfer.files[ 0 ] );
+
+					document.body.style.opacity = 1;
+
+				}, false );
+
+				//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+				//禁用手机默认的触屏滚动行为
+				document.addEventListener('touchmove', function(event) {
+				event.preventDefault();
+				}, false);
+				
+				try {
+					document.createEvent("TouchEvent");
+					//alert("支持TouchEvent事件！");
+			 
+					bindEvent(); //绑定事件
+				} catch (e) {
+					//alert("不支持TouchEvent事件！" + e.message);
+				}
+			}
+
+			//html5 新增 touch 事件
+			
+			//touchstart事件
+			function touchSatrtFunc(evt) {
+				try {
+					//evt.preventDefault(); //阻止触摸时浏览器的缩放、滚动条滚动等
+					
+					var touch = evt.touches[0]; //获取第一个触点
+					var x = Number(touch.pageX); //页面触点X坐标
+					var y = Number(touch.pageY); //页面触点Y坐标
+					//记录触点初始位置
+					//startX = x;
+					//startY = y;
+					isUserInteracting = true;
+					onPointerDownPointerX = x;
+					onPointerDownPointerY = y;
+
+					onPointerDownLon = lon;
+					onPointerDownLat = lat;
+			 
+				} catch (e) {
+					alert('touchSatrtFunc：' + e.message);
+				}
+			}
+			 
+			//touchmove事件，这个事件无法获取坐标
+			function touchMoveFunc(evt) {
+				try {
+					//evt.preventDefault(); //阻止触摸时浏览器的缩放、滚动条滚动等
+					var touch = evt.touches[0]; //获取第一个触点
+					var x = Number(touch.pageX); //页面触点X坐标
+					var y = Number(touch.pageY); //页面触点Y坐标
+			 
+			 
+			//document.getElementById("version").innerHTML = "原:"+startY+"   "+"现:"+y;
+					//判断滑动方向
+					 
+					//if (y - startY > 100) {
+					//	swipeDown();
+					//} else if(y - startY < -100){
+					//	swipeUp();
+					//}
+					
+					if ( isUserInteracting === true ) {
+
+						lon = ( onPointerDownPointerX - x ) * 0.1 + onPointerDownLon;
+						lat = ( y - onPointerDownPointerY) * 0.1 + onPointerDownLat;
+
+					}
+				} catch (e) {
+					//alert('touchMoveFunc：' + e.message);
+				}
+			}
+			 
+			//touchend事件
+			function touchEndFunc(evt) {
+				try {
+					//evt.preventDefault(); //阻止触摸时浏览器的缩放、滚动条滚动等
+			 
+					isUserInteracting = false;
+				} catch (e) {
+					//alert('touchEndFunc：' + e.message);
+				}
+			}
+			 
+			//绑定事件
+			function bindEvent() {
+				document.addEventListener('touchstart', touchSatrtFunc, false);
+				document.addEventListener('touchmove', touchMoveFunc, false);
+				document.addEventListener('touchend', touchEndFunc, false);
+			}
+			 
+			//判断是否支持触摸事件
+			function onWindowResize() {
+
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+
+				renderer.setSize( window.innerWidth, window.innerHeight );
+
+			}
+
+			function onDocumentMouseDown( event ) {
+
+				event.preventDefault();
+
+				isUserInteracting = true;
+
+				onPointerDownPointerX = event.clientX;
+				onPointerDownPointerY = event.clientY;
+
+				onPointerDownLon = lon;
+				onPointerDownLat = lat;
+
+			}
+
+			function onDocumentMouseMove( event ) {
+
+				if ( isUserInteracting === true ) {
+
+					lon = ( onPointerDownPointerX - event.clientX ) * 0.1 + onPointerDownLon;
+					lat = ( event.clientY - onPointerDownPointerY ) * 0.1 + onPointerDownLat;
+
+				}
+
+			}
+
+			function onDocumentMouseUp( event ) {
+
+				isUserInteracting = false;
+
+			}
+
+			function onDocumentMouseWheel( event ) {
+
+				// WebKit
+				/*
+				if ( event.wheelDeltaY ) {
+
+					camera.fov -= event.wheelDeltaY * 0.05;
+
+				// Opera / Explorer 9
+
+				} else if ( event.wheelDelta ) {
+
+					camera.fov -= event.wheelDelta * 0.05;
+
+				// Firefox
+
+				} else if ( event.detail ) {
+
+					camera.fov += event.detail * 1.0;
+
+				}
+
+				camera.updateProjectionMatrix();
+				*/
+				
+			}
+
+			function animate() {
+
+				requestAnimationFrame( animate );
+				update();
+
+			}
+
+			function update() {
+
+				if ( isUserInteracting === false ) {
+
+					lon += 0.1;
+
+				}
+
+				lat = Math.max( -89, Math.min( 89, lat ) );
+				phi = THREE.Math.degToRad( 90 - lat );
+				theta = THREE.Math.degToRad( lon );
+
+				camera.target.x = 500 * Math.sin( phi ) * Math.cos( theta );
+				camera.target.y = 500 * Math.cos( phi );
+				camera.target.z = 500 * Math.sin( phi ) * Math.sin( theta );
+
+				camera.lookAt( camera.target );
+				camera.position.copy( camera.target ).negate();
+				renderer.render( scene, camera );
+
+			}
+
+		</script>
+	</body>
+</html>
