@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="超分辨率," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -84,38 +84,15 @@
 
 
 
-<meta name="description" content="参考论文：Fast Image and Video Upscaling from Self-Examples
-这里主要是对这一部分工作的留存，备忘！
-算法原理可参阅原论文，实际实现时进行了小幅改动。
-不同之处是，笔者的实现支持了清晰程度的调节参数，这便于在各种场景的图像放大过程中，使用者可根据处理图像的纹理情况进行更恰当的处理。
-下图是将244x200的图像放大4倍的效果：
-更清晰一点的效果：
-再">
-<meta property="og:type" content="article">
-<meta property="og:title" content="一种单幅图像的超分辨率放大算法实现">
-<meta property="og:url" content="http://yoursite.com/2015/10/28/一种单幅图像的超分辨率放大算法实现/index.html">
+<meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="走在人生边上">
+<meta property="og:url" content="http://yoursite.com/categories/图像处理/page/2/index.html">
 <meta property="og:site_name" content="走在人生边上">
-<meta property="og:description" content="参考论文：Fast Image and Video Upscaling from Self-Examples
-这里主要是对这一部分工作的留存，备忘！
-算法原理可参阅原论文，实际实现时进行了小幅改动。
-不同之处是，笔者的实现支持了清晰程度的调节参数，这便于在各种场景的图像放大过程中，使用者可根据处理图像的纹理情况进行更恰当的处理。
-下图是将244x200的图像放大4倍的效果：
-更清晰一点的效果：
-再">
-<meta property="og:image" content="http://7xnu0e.com1.z0.glb.clouddn.com/chip_x4_8.png">
-<meta property="og:image" content="http://7xnu0e.com1.z0.glb.clouddn.com/chip_x4_9.png">
-<meta property="og:image" content="http://7xnu0e.com1.z0.glb.clouddn.com/chip_x4_10.png">
-<meta property="og:image" content="http://7xnu0e.com1.z0.glb.clouddn.com/chip_x4_resampling.png">
-<meta property="og:updated_time" content="2015-10-28T06:28:02.143Z">
+<meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一种单幅图像的超分辨率放大算法实现">
-<meta name="twitter:description" content="参考论文：Fast Image and Video Upscaling from Self-Examples
-这里主要是对这一部分工作的留存，备忘！
-算法原理可参阅原论文，实际实现时进行了小幅改动。
-不同之处是，笔者的实现支持了清晰程度的调节参数，这便于在各种场景的图像放大过程中，使用者可根据处理图像的纹理情况进行更恰当的处理。
-下图是将244x200的图像放大4倍的效果：
-更清晰一点的效果：
-再">
+<meta name="twitter:title" content="走在人生边上">
+<meta name="twitter:description">
 
 
 
@@ -133,7 +110,7 @@
   };
 </script>
 
-  <title> 一种单幅图像的超分辨率放大算法实现 | 走在人生边上 </title>
+  <title> 分类: 图像处理 | 走在人生边上 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -164,7 +141,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left page-post-detail ">
+  <div class="container one-collumn sidebar-position-left  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -262,185 +239,51 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <section id="posts" class="posts-collapse">
+    <div class="collection-title">
+      <h2 >
+        图像处理
+        <small>分类</small>
+      </h2>
+    </div>
 
     
-      <header class="post-header">
+      
 
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h1 class="post-title">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
+            <a class="post-title-link" href="/2015/10/28/一种单幅图像的超分辨率放大算法实现/" itemprop="url">
               
-                一种单幅图像的超分辨率放大算法实现
+                <span itemprop="name">一种单幅图像的超分辨率放大算法实现</span>
               
-            
-          </h1>
+            </a>
         
+      </h1>
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-10-28T14:09:43+08:00" content="2015-10-28">
-              2015-10-28
-            </time>
-          </span>
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2015-10-28T14:09:43+08:00"
+              content="2015-10-28" >
+          10-28
+        </time>
+      </div>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/图像处理/" itemprop="url" rel="index">
-                    <span itemprop="name">图像处理</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/10/28/一种单幅图像的超分辨率放大算法实现/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/10/28/一种单幅图像的超分辨率放大算法实现/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p><strong>参考论文：<a href="http://www.cs.huji.ac.il/~raananf/projects/lss_upscale" target="_blank" rel="external">Fast Image and Video Upscaling from Self-Examples</a></strong></p>
-<p>这里主要是对这一部分工作的留存，备忘！</p>
-<p>算法原理可参阅原论文，实际实现时进行了小幅改动。</p>
-<p>不同之处是，笔者的实现支持了清晰程度的调节参数，这便于在各种场景的图像放大过程中，使用者可根据处理图像的纹理情况进行更恰当的处理。</p>
-<p>下图是将244x200的图像放大4倍的效果：<br><img src="http://7xnu0e.com1.z0.glb.clouddn.com/chip_x4_8.png" alt="superresolution_x4_8"></p>
-<p>更清晰一点的效果：<br><img src="http://7xnu0e.com1.z0.glb.clouddn.com/chip_x4_9.png" alt="superresolution_x4_9"></p>
-<p>再清晰一点的效果：<br><img src="http://7xnu0e.com1.z0.glb.clouddn.com/chip_x4_10.png" alt="superresolution_x4_10"></p>
-<hr>
-<p>作为对比，下图为<strong>Kaiser Sinc Window</strong>算法的<strong>8-tap</strong>实现：<br><img src="http://7xnu0e.com1.z0.glb.clouddn.com/chip_x4_resampling.png" alt="superresolution_x4_k8"></p>
-<hr>
-<blockquote>
-<font color="blue"><strong>Raanan Fattal: 主要研究方向包括图像处理、计算机图形学、数值计算，其发表论文以实用为主，理论推导为辅。</strong></font>
-
-</blockquote>
-
-      
-    </div>
-
-    <div>
-      
-        
-      
-    </div>
-
-    <div>
-      
-        
-  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-      <span>赏</span>
-    </button>
-    <div id="QR" style="display: none;">
-      
-        <div id="wechat" style="display: inline-block">
-          <img id="wechat_qr" src="/images/IMG_1533.JPG" alt="赖守波 WeChat Pay"/>
-          <p>微信打赏</p>
-        </div>
-      
-      
-        <div id="alipay" style="display: inline-block">
-          <img id="alipay_qr" src="/images/IMG_1534.JPG" alt="赖守波 Alipay"/>
-          <p>支付宝打赏</p>
-        </div>
-      
-    </div>
-  </div>
-
-
-      
-    </div>
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/超分辨率/" rel="tag">#超分辨率</a>
-          
-        </div>
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2015/10/27/关于旅行/" rel="next" title="关于旅行">
-                <i class="fa fa-chevron-left"></i> 关于旅行
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2015/10/29/对指定目录下的子目录及文件遍历重命名/" rel="prev" title="对指定目录下的子目录及文件遍历重命名">
-                对指定目录下的子目录及文件遍历重命名 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
+    </header>
   </article>
 
 
+    
+  </section>
 
-    <div class="post-spread">
-      
-    </div>
-  </div>
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/categories/图像处理/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/categories/图像处理/">1</a><span class="page-number current">2</span>
+  </nav>
+
+
 
 
           </div>
@@ -448,14 +291,6 @@
 
 
           
-  <div class="comments" id="comments">
-    
-      <div class="ds-thread" data-thread-key="2015/10/28/一种单幅图像的超分辨率放大算法实现/"
-           data-title="一种单幅图像的超分辨率放大算法实现" data-url="http://yoursite.com/2015/10/28/一种单幅图像的超分辨率放大算法实现/">
-      </div>
-    
-  </div>
-
 
         </div>
         
@@ -475,17 +310,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel ">
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -626,17 +452,6 @@
       </section>
 
       
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-            
-              
-            
-            
-              <p class="post-toc-empty">此文章未包含目录</p>
-            
-          </div>
-        </section>
-      
 
     </div>
   </aside>
@@ -739,10 +554,6 @@
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
-
-
 
   
 
