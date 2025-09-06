@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>走在人生边上</title>
+  
+  <subtitle>格物致知</subtitle>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2025-09-06T10:12:08.824Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>赖守波</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>极验行为式滑动交互验证破解</title>
+    <link href="http://yoursite.com/2016/10/09/%E6%9E%81%E9%AA%8C%E8%A1%8C%E4%B8%BA%E5%BC%8F%E6%BB%91%E5%8A%A8%E4%BA%A4%E4%BA%92%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3/"/>
+    <id>http://yoursite.com/2016/10/09/%E6%9E%81%E9%AA%8C%E8%A1%8C%E4%B8%BA%E5%BC%8F%E6%BB%91%E5%8A%A8%E4%BA%A4%E4%BA%92%E9%AA%8C%E8%AF%81%E7%A0%B4%E8%A7%A3/</id>
+    <published>2016-10-09T03:50:33.000Z</published>
+    <updated>2025-09-06T10:12:08.824Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;验证码的时代越来越远，交互验证的需求不断在上升，但对于自动爬取数据却造成了很大的阻碍，因此研究了下对目前滑动验证的极验交互式行为验证的破解，如下为实验的结果&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/geesource.png&quot; alt=&quot;source&quot;&gt;&lt;br&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="行为交互" scheme="http://yoursite.com/tags/%E8%A1%8C%E4%B8%BA%E4%BA%A4%E4%BA%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>京东钱包里，你不知道的吃喝玩乐省钱妙招</title>
+    <link href="http://yoursite.com/2016/07/12/%E4%BA%AC%E4%B8%9C%E9%92%B1%E5%8C%85%E9%87%8C%EF%BC%8C%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%90%83%E5%96%9D%E7%8E%A9%E4%B9%90%E7%9C%81%E9%92%B1%E5%A6%99%E6%8B%9B/"/>
+    <id>http://yoursite.com/2016/07/12/%E4%BA%AC%E4%B8%9C%E9%92%B1%E5%8C%85%E9%87%8C%EF%BC%8C%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%90%83%E5%96%9D%E7%8E%A9%E4%B9%90%E7%9C%81%E9%92%B1%E5%A6%99%E6%8B%9B/</id>
+    <published>2016-07-12T07:12:14.000Z</published>
+    <updated>2025-09-06T10:12:08.824Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这次来为京东钱包站个台，为了让小伙伴们能够更方便的操作，文章使用了大量的截图，建议使用WIFI观看，流量不惧的伙伴请飘过~&lt;/p&gt;
+&lt;p&gt;夏天到了，零食饮料总是少不了的，最近成都天气异常闷热，几场瓢泼大雨也没把温度降下去，一天总得消耗几瓶水、几支冰淇淋，有时还得来点薯片什么</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="吃喝玩乐" scheme="http://yoursite.com/tags/%E5%90%83%E5%96%9D%E7%8E%A9%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>360度全景小行星酷炫效果</title>
+    <link href="http://yoursite.com/2016/05/13/360%E5%BA%A6%E5%85%A8%E6%99%AF%E5%B0%8F%E8%A1%8C%E6%98%9F%E9%85%B7%E7%82%AB%E6%95%88%E6%9E%9C/"/>
+    <id>http://yoursite.com/2016/05/13/360%E5%BA%A6%E5%85%A8%E6%99%AF%E5%B0%8F%E8%A1%8C%E6%98%9F%E9%85%B7%E7%82%AB%E6%95%88%E6%9E%9C/</id>
+    <published>2016-05-13T03:24:17.000Z</published>
+    <updated>2025-09-06T10:12:08.822Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;全景显示具有视觉突出的呈现作用，如人物、建筑、大树等，360度全景即包含前、后、左、右、上和下6个方向的球体，点击下面链接观看酷炫效果：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://lifesid</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="360度小行星" scheme="http://yoursite.com/tags/360%E5%BA%A6%E5%B0%8F%E8%A1%8C%E6%98%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微博图片去水印</title>
+    <link href="http://yoursite.com/2016/03/15/%E5%BE%AE%E5%8D%9A%E5%9B%BE%E7%89%87%E5%8E%BB%E6%B0%B4%E5%8D%B0/"/>
+    <id>http://yoursite.com/2016/03/15/%E5%BE%AE%E5%8D%9A%E5%9B%BE%E7%89%87%E5%8E%BB%E6%B0%B4%E5%8D%B0/</id>
+    <published>2016-03-15T03:10:36.000Z</published>
+    <updated>2025-09-06T10:12:08.824Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;基于泊松方程算法的图片自动去水印&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;原图如下，使用微博上传后的一张带“微博水印”的图片作为示例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/images/dewatermark_src.JP</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="图片去水印" scheme="http://yoursite.com/tags/%E5%9B%BE%E7%89%87%E5%8E%BB%E6%B0%B4%E5%8D%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Single Image High-Quality Denoising</title>
+    <link href="http://yoursite.com/2016/02/23/Single-Image-High-Quality-Denoising/"/>
+    <id>http://yoursite.com/2016/02/23/Single-Image-High-Quality-Denoising/</id>
+    <published>2016-02-23T05:23:40.000Z</published>
+    <updated>2025-09-06T10:12:08.823Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;基于单幅图像的高质量去噪算法效果&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/images/%E5%8E%BB%E5%99%AA.png&quot; alt=&quot;denoising&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="图像去噪" scheme="http://yoursite.com/tags/%E5%9B%BE%E5%83%8F%E5%8E%BB%E5%99%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fast Single Image Dehazing</title>
+    <link href="http://yoursite.com/2016/02/23/Fast-Single-Image-Dehazing/"/>
+    <id>http://yoursite.com/2016/02/23/Fast-Single-Image-Dehazing/</id>
+    <published>2016-02-23T05:11:47.000Z</published>
+    <updated>2025-09-06T10:12:08.822Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;基于单幅图像的快速去雾算法效果展示：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/images/%E5%9B%BE%E5%83%8F%E5%8E%BB%E9%9B%BE1.png&quot; alt=&quot;dehazing1&quot;&gt;&lt;/p&gt;
+&lt;p</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="图像去雾" scheme="http://yoursite.com/tags/%E5%9B%BE%E5%83%8F%E5%8E%BB%E9%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>视频移动侦测、入侵检测与报警、前景背景分离</title>
+    <link href="http://yoursite.com/2016/02/04/%E8%A7%86%E9%A2%91%E7%A7%BB%E5%8A%A8%E4%BE%A6%E6%B5%8B%E3%80%81%E5%85%A5%E4%BE%B5%E6%A3%80%E6%B5%8B%E4%B8%8E%E6%8A%A5%E8%AD%A6%E3%80%81%E5%89%8D%E6%99%AF%E8%83%8C%E6%99%AF%E5%88%86%E7%A6%BB/"/>
+    <id>http://yoursite.com/2016/02/04/%E8%A7%86%E9%A2%91%E7%A7%BB%E5%8A%A8%E4%BE%A6%E6%B5%8B%E3%80%81%E5%85%A5%E4%BE%B5%E6%A3%80%E6%B5%8B%E4%B8%8E%E6%8A%A5%E8%AD%A6%E3%80%81%E5%89%8D%E6%99%AF%E8%83%8C%E6%99%AF%E5%88%86%E7%A6%BB/</id>
+    <published>2016-02-04T08:21:55.000Z</published>
+    <updated>2025-09-06T10:12:08.825Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;左边为输入视频帧，右边为输出的检测结果&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;/images/543.jpg&quot; alt=&quot;frame543&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/643.jpg&quot; a</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="移动侦测" scheme="http://yoursite.com/tags/%E7%A7%BB%E5%8A%A8%E4%BE%A6%E6%B5%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>opensift library for windows</title>
+    <link href="http://yoursite.com/2016/01/26/opensift-library-for-windows/"/>
+    <id>http://yoursite.com/2016/01/26/opensift-library-for-windows/</id>
+    <published>2016-01-26T05:56:52.000Z</published>
+    <updated>2025-09-06T10:12:08.823Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;主要包括将&lt;strong&gt;opensift&lt;/strong&gt;迁移至windows的工作，使用OpenCV 3.0+Visual Studio 2012 64bit。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;源项目可点击**&lt;a href=&quot;htt</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="SIFT" scheme="http://yoursite.com/tags/SIFT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一枝红杏出墙来</title>
+    <link href="http://yoursite.com/2016/01/25/%E4%B8%80%E6%9E%9D%E7%BA%A2%E6%9D%8F%E5%87%BA%E5%A2%99%E6%9D%A5/"/>
+    <id>http://yoursite.com/2016/01/25/%E4%B8%80%E6%9E%9D%E7%BA%A2%E6%9D%8F%E5%87%BA%E5%A2%99%E6%9D%A5/</id>
+    <published>2016-01-25T03:37:27.000Z</published>
+    <updated>2025-09-06T10:12:08.823Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;想翻墙，就用&lt;font color=blue&gt;&lt;strong&gt;&lt;a href=&quot;http://my.yizhihongxing.com/aff.php?aff=343&quot;&gt;一枝红杏&lt;/a&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;/blo</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>解决Linux下内联汇编的宏融合寻址问题</title>
+    <link href="http://yoursite.com/2016/01/14/%E8%A7%A3%E5%86%B3Linux%E4%B8%8B%E5%86%85%E8%81%94%E6%B1%87%E7%BC%96%E7%9A%84%E5%AE%8F%E8%9E%8D%E5%90%88%E5%AF%BB%E5%9D%80%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2016/01/14/%E8%A7%A3%E5%86%B3Linux%E4%B8%8B%E5%86%85%E8%81%94%E6%B1%87%E7%BC%96%E7%9A%84%E5%AE%8F%E8%9E%8D%E5%90%88%E5%AF%BB%E5%9D%80%E9%97%AE%E9%A2%98/</id>
+    <published>2016-01-14T10:04:10.000Z</published>
+    <updated>2025-09-06T10:12:08.825Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Windows下生成DLL时，直接使用内联汇编的宏融合（Macro Fusion）模式，可以提高效率，如&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;__asm &amp;#123;  
+  
+　　movdqa　　　　xmm0, g_data0;  
+  
+　　paddw 　　　　xmm0, g</summary>
+      
+    
+    
+    
+    <category term="程序艺术" scheme="http://yoursite.com/categories/%E7%A8%8B%E5%BA%8F%E8%89%BA%E6%9C%AF/"/>
+    
+    
+    <category term="Linux汇编寻址" scheme="http://yoursite.com/tags/Linux%E6%B1%87%E7%BC%96%E5%AF%BB%E5%9D%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>视频防抖算法研究</title>
+    <link href="http://yoursite.com/2015/11/19/%E8%A7%86%E9%A2%91%E9%98%B2%E6%8A%96%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/"/>
+    <id>http://yoursite.com/2015/11/19/%E8%A7%86%E9%A2%91%E9%98%B2%E6%8A%96%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/</id>
+    <published>2015-11-19T02:15:13.000Z</published>
+    <updated>2025-09-06T10:12:08.825Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;基于Lucas-Kanade算法的视频防抖&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;video id=&quot;video1&quot; width=&quot;720&quot; height=&quot;404&quot; controls=&quot;controls&quot; preload=&quot;none&quot; poster=&quot;/i</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="视频稳定" scheme="http://yoursite.com/tags/%E8%A7%86%E9%A2%91%E7%A8%B3%E5%AE%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>美颜算法研究</title>
+    <link href="http://yoursite.com/2015/11/18/%E7%BE%8E%E9%A2%9C%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/"/>
+    <id>http://yoursite.com/2015/11/18/%E7%BE%8E%E9%A2%9C%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6/</id>
+    <published>2015-11-18T05:07:53.000Z</published>
+    <updated>2025-09-06T10:12:08.825Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;自以为可以与美图秀秀等美颜软件可以媲美了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/beautify0.png&quot; alt=&quot;beautify0&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/beautify1.png&quot; alt=&quot;beautify1&quot;&gt;&lt;/</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="美颜" scheme="http://yoursite.com/tags/%E7%BE%8E%E9%A2%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>成功是否可以复制？</title>
+    <link href="http://yoursite.com/2015/11/17/%E6%88%90%E5%8A%9F%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E5%A4%8D%E5%88%B6%EF%BC%9F/"/>
+    <id>http://yoursite.com/2015/11/17/%E6%88%90%E5%8A%9F%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E5%A4%8D%E5%88%B6%EF%BC%9F/</id>
+    <published>2015-11-17T05:30:37.000Z</published>
+    <updated>2025-09-06T10:12:08.824Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;唐骏出过一本书，叫《我的成功可以复制》，不过我没有读过，事实上作为与他在同一所大学上过学的小师弟而言，很多人视为其榜样，这从校庆50周年其作为特别嘉宾出场的盛况就可得知，当然这还是在其学历是否造假事件出来之前。&lt;/p&gt;
+&lt;p&gt;其实我觉得每个人的成功都是不一样的，自然就是不可</summary>
+      
+    
+    
+    
+    <category term="领悟" scheme="http://yoursite.com/categories/%E9%A2%86%E6%82%9F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>图像检索技术分析</title>
+    <link href="http://yoursite.com/2015/11/05/image-retrieval/"/>
+    <id>http://yoursite.com/2015/11/05/image-retrieval/</id>
+    <published>2015-11-05T03:53:56.000Z</published>
+    <updated>2025-09-06T10:12:08.823Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;与文字搜索不同，图像检索通过提取图像的特征，自动在数据库中进行检索，这将比文字检索更加智能，下面简要说一下目前具有图像检索功能的几家。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://shitu.baidu.com/&quot;&gt;百度识图&lt;/a&gt;&lt;/stron</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="图像检索" scheme="http://yoursite.com/tags/%E5%9B%BE%E5%83%8F%E6%A3%80%E7%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对指定目录下的子目录及文件遍历重命名</title>
+    <link href="http://yoursite.com/2015/10/29/%E5%AF%B9%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E5%AD%90%E7%9B%AE%E5%BD%95%E5%8F%8A%E6%96%87%E4%BB%B6%E9%81%8D%E5%8E%86%E9%87%8D%E5%91%BD%E5%90%8D/"/>
+    <id>http://yoursite.com/2015/10/29/%E5%AF%B9%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84%E5%AD%90%E7%9B%AE%E5%BD%95%E5%8F%8A%E6%96%87%E4%BB%B6%E9%81%8D%E5%8E%86%E9%87%8D%E5%91%BD%E5%90%8D/</id>
+    <published>2015-10-29T03:06:21.000Z</published>
+    <updated>2025-09-06T10:12:08.824Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;作为对&lt;strong&gt;Python&lt;/strong&gt;学习的备忘留存，主要工作是指定一目录，对其所有子目录及文件进行遍历，并对满足指定长度的文件或目录重命名。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight py</summary>
+      
+    
+    
+    
+    <category term="程序艺术" scheme="http://yoursite.com/categories/%E7%A8%8B%E5%BA%8F%E8%89%BA%E6%9C%AF/"/>
+    
+    
+    <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一种单幅图像的超分辨率放大算法实现</title>
+    <link href="http://yoursite.com/2015/10/28/%E4%B8%80%E7%A7%8D%E5%8D%95%E5%B9%85%E5%9B%BE%E5%83%8F%E7%9A%84%E8%B6%85%E5%88%86%E8%BE%A8%E7%8E%87%E6%94%BE%E5%A4%A7%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0/"/>
+    <id>http://yoursite.com/2015/10/28/%E4%B8%80%E7%A7%8D%E5%8D%95%E5%B9%85%E5%9B%BE%E5%83%8F%E7%9A%84%E8%B6%85%E5%88%86%E8%BE%A8%E7%8E%87%E6%94%BE%E5%A4%A7%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0/</id>
+    <published>2015-10-28T06:09:43.000Z</published>
+    <updated>2025-09-06T10:12:08.823Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;参考论文：&lt;a href=&quot;http://www.cs.huji.ac.il/~raananf/projects/lss_upscale&quot;&gt;Fast Image and Video Upscaling from Self-Examples&lt;/a&gt;&lt;/stro</summary>
+      
+    
+    
+    
+    <category term="图像处理" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/"/>
+    
+    
+    <category term="超分辨率" scheme="http://yoursite.com/tags/%E8%B6%85%E5%88%86%E8%BE%A8%E7%8E%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于旅行</title>
+    <link href="http://yoursite.com/2015/10/27/%E5%85%B3%E4%BA%8E%E6%97%85%E8%A1%8C/"/>
+    <id>http://yoursite.com/2015/10/27/%E5%85%B3%E4%BA%8E%E6%97%85%E8%A1%8C/</id>
+    <published>2015-10-27T05:03:55.000Z</published>
+    <updated>2025-09-06T10:12:08.824Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;font color=blue size=4&gt;生活中不缺少美，只是缺少发现美的眼睛！&lt;/font&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以前听过一个节目，让我印象深刻，那还是在我开始旅行之前。记得是一位叫“此生只为取悦自己”的个人电台节目，</summary>
+      
+    
+    
+    
+    <category term="领悟" scheme="http://yoursite.com/categories/%E9%A2%86%E6%82%9F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>对红旗连锁未来发展的一些思考</title>
+    <link href="http://yoursite.com/2015/10/26/%E5%AF%B9%E7%BA%A2%E6%97%97%E8%BF%9E%E9%94%81%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/"/>
+    <id>http://yoursite.com/2015/10/26/%E5%AF%B9%E7%BA%A2%E6%97%97%E8%BF%9E%E9%94%81%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/</id>
+    <published>2015-10-26T11:50:47.000Z</published>
+    <updated>2025-09-06T10:12:08.824Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;2012年，披着&lt;strong&gt;便利连锁第一股&lt;/strong&gt;的光环，红旗连锁在中小板上市了。&lt;/p&gt;
+&lt;p&gt;红旗连锁已上市整整三个年头，从其增长速度来看，整体经营情况稳定，基本每年保持5%-10%左右增长，不算太好，不过其股价走势，算是上市公司中比较好的了，其整体处于上</summary>
+      
+    
+    
+    
+    <category term="投资" scheme="http://yoursite.com/categories/%E6%8A%95%E8%B5%84/"/>
+    
+    
+    <category term="红旗连锁" scheme="http://yoursite.com/tags/%E7%BA%A2%E6%97%97%E8%BF%9E%E9%94%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>路漫漫其修远兮</title>
+    <link href="http://yoursite.com/2015/10/23/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E8%BF%9C%E5%85%AE/"/>
+    <id>http://yoursite.com/2015/10/23/%E8%B7%AF%E6%BC%AB%E6%BC%AB%E5%85%B6%E4%BF%AE%E8%BF%9C%E5%85%AE/</id>
+    <published>2015-10-23T03:01:01.000Z</published>
+    <updated>2025-09-06T10:12:08.825Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在CSDN上写博客已经是好几年前的事了，当时贴代码和公式都极不方便，并且CSDN的排版也一直被诟病，现在&lt;strong&gt;github+hexo+markdown&lt;/strong&gt;的方式还真是新颖又方便了许多。&lt;/p&gt;
+&lt;p&gt;突然这么觉得，自己还真是落后互联网许久了，思维也一</summary>
+      
+    
+    
+    
+    <category term="领悟" scheme="http://yoursite.com/categories/%E9%A2%86%E6%82%9F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2015/10/22/hello-world/"/>
+    <id>http://yoursite.com/2015/10/22/hello-world/</id>
+    <published>2015-10-22T11:50:47.000Z</published>
+    <updated>2025-09-06T10:12:08.823Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for m</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
